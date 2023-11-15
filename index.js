@@ -39,13 +39,6 @@ const translate = async (url) => {
 	}
 };
 
-app.get('/translated', (req, res) => {
-	// * Use pakage function to translate
-	// * translate(url) and it will return a DOM element with translated text
-	// * set that element to a variable and send it as response
-	res.send('Hi');
-});
-
 app.listen(3000, () => {
 	console.log('Example app listening on port 3000!');
 });
